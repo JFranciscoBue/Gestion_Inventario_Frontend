@@ -13,15 +13,15 @@ function App() {
   return (
     <>
       <Navigation />
-      <h1>Home Page</h1>
-      <RegisterForm />
-      <LoginForm />
-      <Product />
+      {/* <h1>Home Page</h1> */}
+       {/* <RegisterForm /> */}
+      {/* <LoginForm /> */}
+      {/* <Product /> */}
       <ProductsList />
-      <RefrigeratorsList />
-      <ServicesList />
-      <ShelvesList />
-      <Footer />
+      {/* <RefrigeratorsList /> */}
+      {/* <ServicesList /> */}
+      {/* <ShelvesList /> */}
+      {/* <Footer />  */}
     </>
   );
 }
