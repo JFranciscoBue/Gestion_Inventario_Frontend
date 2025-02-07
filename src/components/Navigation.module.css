@@ -11,7 +11,7 @@
 .navbar__list {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 35px;
 }
 
 .navbar__list__item li {
@@ -20,7 +20,17 @@
   font-family: sans-serif;
   font-weight: bolder;
   color: rgb(0, 0, 0);
+  cursor: pointer;
 }
+
+
+.navbar__list__item li:hover {
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+
 
 .navbar__buttons {
   display: flex;
@@ -34,6 +44,7 @@
   text-align: center;
   color: black;
   font-family: sans-serif;
+  font-weight: bolder;
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 0 2px 10px rgb(181, 190, 44);

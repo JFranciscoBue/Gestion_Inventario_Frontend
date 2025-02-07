@@ -1,9 +1,14 @@
 import React from "react";
+import styles from "./Product.module.css";
 
-const Product = () => {
+const Product = ({ prods }) => {
   return (
-    <div>
-      <h2>Product Card</h2>
+    <div className={styles.productCard}>
+      <h3>{prods.title}</h3>
+      <img src={prods.poster} />
+      <p>{prods.description}</p>
+      <span>${prods.price}</span>
+      <button>Añadir</button>
     </div>
   );
 };
