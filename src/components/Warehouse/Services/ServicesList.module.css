@@ -1,0 +1,8 @@
+.services_container {
+  background-color: orangered;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  width: 45%;
+}

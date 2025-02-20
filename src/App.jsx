@@ -14,12 +14,12 @@ function App() {
     <>
       <Navigation />
       {/* <h1>Home Page</h1> */}
-       {/* <RegisterForm /> */}
+      {/* <RegisterForm /> */}
       {/* <LoginForm /> */}
       {/* <Product /> */}
-      <ProductsList />
+      {/* <ProductsList /> */}
       {/* <RefrigeratorsList /> */}
-      {/* <ServicesList /> */}
+      <ServicesList />
       {/* <ShelvesList /> */}
       {/* <Footer />  */}
     </>
