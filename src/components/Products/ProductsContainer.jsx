@@ -443,20 +443,32 @@ const ProductsContainer = () => {
   ]);
 
   return (
-    <div className="productsContainer">
-      {products.map(({ titulo, descripcion, stock, poster, precio, id }) => {
-        return (
-          <ProductCard
-            title={titulo}
-            description={descripcion}
-            stock={stock}
-            poster={poster}
-            price={precio}
-            key={id}
-          />
-        );
-      })}
-    </div>
+    <>
+      <div className="productsContainer__filters">
+        <h2>Filter by Category</h2>
+        <div className="productsContainer__filter__groups">
+          <button>Alimentos</button>
+          <button>Bebidas</button>
+          <button>Panadería y Repostería</button>
+          <button>Limpieza y Aseo Personal</button>
+          <button>Otros </button>
+        </div>
+      </div>
+      <div className="productsContainer">
+        {products.map(({ titulo, descripcion, stock, poster, precio, id }) => {
+          return (
+            <ProductCard
+              title={titulo}
+              description={descripcion}
+              stock={stock}
+              poster={poster}
+              price={precio}
+              key={id}
+            />
+          );
+        })}
+      </div>
+    </>
   );
 };
 

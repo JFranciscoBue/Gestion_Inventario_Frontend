@@ -17,10 +17,40 @@
   gap: 100px;
 }
 
+.profileContainer__header__username {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.profileContainer__header__username i {
+  font-size: 23px;
+  border: 1px solid black;
+  padding: 2px;
+  border-radius: 100%;
+  background-color: aliceblue;
+}
+
 .profileContainer__header .profileContainer__header__brand-username h2,
 .profileContainer__header .profileContainer__header__brand-username p {
   color: #1e1e1e;
   font-weight: bolder;
+}
+
+.profileContainer__header__logout {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profileContainer__header__logout i {
+  font-size: 21px;
+  color: #1e1e1e;
+}
+
+.profileContainer__header__logout i:hover,
+.profileContainer__header__logout .profileContainer__header__logoutButton:hover{
+  color: aliceblue;
 }
 
 .profileContainer__header__logoutButton {
@@ -33,9 +63,7 @@
   transition: all 0.3s ease;
 }
 
-.profileContainer__header__logoutButton:hover {
-  color: aliceblue;
-}
+
 
 .profileContainer__body {
   display: flex;

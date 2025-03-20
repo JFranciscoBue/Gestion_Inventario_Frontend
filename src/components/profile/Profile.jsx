@@ -7,11 +7,17 @@ const Profile = () => {
       <div className="profileContainer__header">
         <div className="profileContainer__header__brand-username">
           <h2>Minimarket Inventory</h2>
-          <p>Maritanegra_123</p>
+          <div className="profileContainer__header__username">
+            <i class="bx bx-user"></i>
+            <p>Maritanegra_123</p>
+          </div>
         </div>
-        <button className="profileContainer__header__logoutButton">
-          Cerrar Sesion
-        </button>
+        <div className="profileContainer__header__logout">
+          <i class="bx bx-log-out"></i>
+          <button className="profileContainer__header__logoutButton">
+            Cerrar Sesion
+          </button>
+        </div>
       </div>
 
       <div className="profileContainer__body">
