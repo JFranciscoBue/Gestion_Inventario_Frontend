@@ -1,14 +1,14 @@
-import Header from "./components/navbar/Navbar";
-import ProductContainer from "./components/Products/ProductsContainer";
+import Products from "./views/Products";
 import Profile from "./components/profile/Profile";
-import Footer from "./components/footer/Footer";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Header />
-      <ProductContainer />
-      <Footer />
+      <Routes>
+        <Route path="/products" element={<Products />} />
+        <Route path="/profile/:id" element={<Profile />} />
+      </Routes>
     </>
   );
 }

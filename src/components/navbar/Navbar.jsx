@@ -22,6 +22,10 @@ const Header = () => {
             <i class="bx bx-cart"></i>
             <p>Cart</p>
           </li>
+          <li className="header__navbar_list_item">
+            <i class="bx bx-user"></i>
+            <p>Profile</p>
+          </li>
         </ul>
       </nav>
     </header>
