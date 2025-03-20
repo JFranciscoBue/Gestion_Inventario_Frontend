@@ -1,0 +1,66 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  width: 20%;
+  padding: 11.5px 23px;
+  border-radius: 30px;
+  margin: 15px;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card__header img {
+  width: 100%;
+}
+
+.card__header h3 {
+  text-align: center;
+  margin-bottom: 9px;
+  border-bottom: 1px solid #5c5c5c;
+  width: 100%;
+  color: #5c5c5c;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.card__header p {
+  font-size: 15px;
+}
+
+.card__body {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.card__body button {
+  background-color: #ff5722;
+  border: none;
+  font-weight: bolder;
+  padding: 5px 10px;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card__body button:hover {
+  background-color: #f34122;
+  color: #f5f5f5;
+}
+
+.card__body__price-stock {
+  display: flex;
+  flex-direction: column;
+}
+
+.price_stock-price {
+  font-weight: bolder;
+}

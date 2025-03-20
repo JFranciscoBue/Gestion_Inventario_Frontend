@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  align-items: center;
+  margin: 30px;
+  padding: 10px 20px;
+  color: #1e1e1e;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.header__brand {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.header__brand i {
+  font-size: 75px;
+}
+
+.header__brand h1 {
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+.header__navbar_list {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  margin-right: 100px;
+}
+
+.header__navbar_list_item {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.header__navbar_list_item i {
+  font-size: 30px;
+}
+
+.header__navbar_list_item p {
+  font-size: 26px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.header__navbar_list_item p:hover {
+  color: azure;
+}
